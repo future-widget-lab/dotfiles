@@ -29,7 +29,6 @@ alias vscode="\"/Applications/Visual Studio Code.app/Contents/Resources/app/bin/
 
 function c { vscode ${@:-.} }
 
-alias layout="osascript .iterm2-layout.scpt"
 alias ls="exa"
 alias ls="exa --all --long"
 alias lst="exa --all --long --tree"
@@ -40,8 +39,7 @@ alias vz="vim ~/.zshrc";
 alias sz="source ~/.zshrc";
 alias documents="cd ~/Documents"
 alias desktop="cd ~/Desktop";
-alias downloads="cd ~/Desktop";
-alias artifacts="cd ~/../../Volumes/SSD/code"
+alias downloads="cd ~/Downloads";
 alias icloud="cd ~/Library/'Mobile Documents'/com~apple~CloudDocs";
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'

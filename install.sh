@@ -16,7 +16,7 @@ brew install gotop                                                              
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting   # https://github.com/zsh-users/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions               # https://github.com/zsh-users/zsh-autosuggestions
 brew install ranger                                                                                                                     # https://github.com/ranger/ranger
-brew install iterm2                                                                                                                     # https://iterm2.com.
+brew install iterm2                                                                                                                     # https://iterm2.com
 
 # Overwrites
 
@@ -28,8 +28,3 @@ git clone https://github.com/Platekun/dotfiles.git dotfiles
 rm ~/.zshrc
 mv dotfiles/.zshrc ~
 source ~/.zshrc
-
-mv dotfiles/.gotop-layout ~
-mv dotfiles/.iterm2-layout.scpt ~                                                                                                       # https://dev.to/vivekkodira/automate-a-multi-window-experience-on-iterm2-2j9e
-
-mv dotfiles/com.googlecode.iterm2.plist com.googlecode.iterm2.plist
